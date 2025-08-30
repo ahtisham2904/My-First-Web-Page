@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 98%;
+    box-shadow: 1px 1px 10px 1px;
+    margin: auto;
+    margin-top: 1vh;
+    border-radius: 10px;
+    padding-bottom: 10vh;
+}
+.Top-line {
+    width: 100%;
+    height: 30px; 
+    background-color: #a0a2a8;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    }
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: white;    
+    border-radius: 50%;         
+    margin-right: 5px;
+}
+.header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #a0a2a8;
+}
+.name span {
+    font-weight: 700; 
+    color: #111827;
+}
+
+.Pages{
+    display: flex;
+    gap: 40px;
+}
+a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #a0a2a8;
+    font-size: 20px;
+}
+.Login{
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+.Signup{
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.Heading{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vh;
+}
+.Heading h1{
+    font-size: 50px;
+}
+.Heading p{
+    color: #a0a2a8;
+    font-size: 20px;
+}
+@media (max-width: 450px) {
+    .Heading p{
+        font-size: 15px;
+    }
+}
+
+.Plans{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.Plan{
+    width: 32%;
+    border: 2px solid #a0a2a8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+.Plan h2{
+    text-align: center;
+    color: #a0a2a8;
+    font-size: 1.5vw;
+    padding-bottom: 20px;
+}
+.Plan h1{
+    text-align: center;
+    font-size: 4vw;
+    padding-bottom: 30px;
+}
+.Plan p{
+    padding: 15px;
+    font-size: 1.3vw;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.row img{
+    width: 50px;
+    height: 50px;
+}
+.PersonalBtn{
+    margin: auto;
+    width: 90%;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.StartupBtn{
+    margin: auto;
+    width: 90%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+@media  (min-width: 750px){
+    .Hamburger{
+        display: none;
+    }
+}
+@media (max-width: 750px) {
+    .Pages{
+        display: none;
+    }
+    .Login-Signup{
+        display: none;
+    }
+    .Plans{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+    }
+    .Plan{
+        margin: auto;
+        width: 70%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    .row{
+        padding-left: 10%;
+    }
+    .Plan p{
+        font-size: 3vw;
+    }
+    .Plan h2{
+        font-size: 20px;
+    }
+    .Plan h1{
+        font-size: 30px;
+    }
+
+}
+
+footer{
+    padding: 10vh;
+    text-align: center;
+    color: #a0a2a8;
+}
